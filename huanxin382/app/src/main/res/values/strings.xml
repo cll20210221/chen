@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">huanxin3.8.2</string>
+    <string name="userName">用户名</string>
+    <string name="userPass">密码</string>
+    <string name="reg">注册</string>
+    <string name="login">登陆</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linkman">联系人列表</string>
+    <string name="dialogue">会话列表</string>
+    <string name="startChat">开始聊天</string>
+    <string name="id">输入ID:</string>
+</resources>

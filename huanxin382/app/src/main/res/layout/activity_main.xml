@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/id"
+        android:text="@string/id"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/id_Et"
+        android:layout_toRightOf="@id/id"
+        android:layout_centerInParent="true"
+        android:hint="请输入聊天对象ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+   <RelativeLayout
+       android:layout_alignParentBottom="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/startChat"
+           android:text="@string/startChat"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/dialogueList"
+            android:text="@string/dialogue"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+       <Button
+           android:layout_alignParentRight="true"
+           android:text="@string/linkman"
+           android:id="@+id/linkmanList"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </RelativeLayout>
+
+</RelativeLayout>

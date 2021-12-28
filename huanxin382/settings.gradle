@@ -1,0 +1,2 @@
+rootProject.name = "huanxin3.8.2"
+include ':app'

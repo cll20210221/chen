@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">huanxin</string>
+    <string name="reg">注册</string>
+    <string name="login">登陆</string>
+    <string name="userName">用户名</string>
+    <string name="userPass">密码</string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "huanxin_correct"
+include ':app'

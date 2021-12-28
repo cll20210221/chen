@@ -1,0 +1,3 @@
+rootProject.name = "chenlanglang20211228"
+include ':app'
+include ':library_mvp'
